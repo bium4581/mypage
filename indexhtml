@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+
+    @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+    * {
+    font-family: "Pretendard",serif;
+    }
+
+    body{background-color:black;
+    }
+    .프로{
+        width: 100px;
+        height: 100px;
+
+        background-color:green;
+        border-radius: 100%;
+
+        border : 2px solid white;
+
+        background-image: url(bium.JPG);
+        background-position: center;
+        background-size: cover;
+
+
+    }
+    .이름{
+            color: white;
+            margin-top: 30px;}
+            .설명{
+                color: white;
+                font-size: 18px;
+                margin-top: 0px;
+                margin-bottom: 30px}
+                
+                
+    .wrap{
+        width: 300px;
+        margin: 30px auto 0px auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+                }
+                .wrap>a{
+                    width: 300px;
+                    height: 50px;
+                    background-color:white;
+                    border-radius: 8px;
+                    margin-bottom:10px;
+                    font-size: 14px;
+                    font-weight: bold;
+                    color:black;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+
+                    box-shadow: 3px 3px 10px 3px gray;
+
+                }
+                .wrap>a:hover{
+                    background-color: #F2F2F2;
+                    
+                }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="프로"></div>
+    <h1 class="이름"> CUSTOM BIUM</h1>
+    <p class="설명">- 신발에 이야기를 담는 슈즈스토리텔러 -</p>
+    <a target="_blank" href="https://www.youtube.com/channel/UCVlfULQavDR-T1gNx7QF1vA">youtube</a>
+<a target="_blank" href="https://www.instagram.com/bium4581/">instagram</a>
+<a target="_blank" href="http://pf.kakao.com/_ARxfMC">kakaotalk</a>
+<a target="_blank" href="https://smartstore.naver.com/bium4581?NaPm=ct%3Dlae9ssxa%7Cci%3Dcheckout%7Ctr%3Dds%7Ctrx%3D%7Chk%3D8737ddeb52b71a3c896ea82e8d5a9e0db4e0084a">naverstore</a>
+    </div>
+</body>
+</html>
